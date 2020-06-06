@@ -13,6 +13,24 @@ To take it a step further, the project shall use the Smart Document Understandin
 
 In Watson Discovery I have added ecobee3_userguide.
 
-Node_Red Dasboard link after deploying : https://myhelpdesk.mybluemix.net/ui/
+#### Node_Red Dasboard link after deploying : https://myhelpdesk.mybluemix.net/ui/
 
 Have a casual talks like hello, bye, good morning, etc, for (SDU) like how to set time, how to turn on heater, how to access setting, how to operate thermostat, how to set up thermostat only.
+
+With the help of Smart Document Understanding feature, Watson Discovery model will be customized so that the queries will be focused on the search for most relevant information from the users manual uploaded in Discovery.
+
+Watson Assistant will acts as the Chatbot will predefined standard dialogs loaded to handle typical conversation between customer. When the query comes under technical domain, it will communicate with Discovery service with the help of 'Webhook'.
+Webhook will be created by defining a web action using Cloud Functions.
+
+Node-Red will wire all the services utilized in this project and create a UI for the customers.
+
+### FLOW
+
+![Image description](https://github.com/IBM/watson-discovery-sdu-with-assistant/blob/master/doc/source/images/architecture.png)
+
+This flow basically summarizes the project. It begins with :
+1. The annotation of document using Watson Dicovery SDU.
+2. The user interacts with Node-Red app UI.The chatbot engages the user in conversation.
+3. Dialog in this interaction is coordinated by Watson Assistant.
+4. If the customer asks a technical question, it will be passed to Cloud Functions action.
+5. This action will further pass onto to Watson Discovery and return with appropriate solution.
