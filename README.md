@@ -15,4 +15,4 @@ In Watson Discovery I have added ecobee3_userguide.
 
 Node_Red Dasboard link after deploying : https://myhelpdesk.mybluemix.net/ui/
 
-Have a casual talks like hello,bye,good morning,etc,for(SDU) like how to set time,how to turn on heater,how to access setting,how to operate thermostat,how to set up thermostat only.
+Have a casual talks like hello, bye, good morning, etc, for (SDU) like how to set time, how to turn on heater, how to access setting, how to operate thermostat, how to set up thermostat only.
