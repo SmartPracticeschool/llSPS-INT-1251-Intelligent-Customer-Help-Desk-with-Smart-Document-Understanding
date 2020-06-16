@@ -2,6 +2,7 @@
 
 ### Node_Red Dasboard link after deploying : https://myhelpdesk.mybluemix.net/ui/
 ### Demonstration Video link : https://youtu.be/fOXd9k6Rx3E
+### Smartinternz feedback : [10:04 of above video or click here](https://youtu.be/fOXd9k6Rx3E?t=604)
 
 ## Project Description
 
